@@ -13,7 +13,6 @@
   height: 200px;
   color:white;
   perspective: 800px;
-  font-size:x-large;
 }
 
 .front, .back {
@@ -23,13 +22,13 @@
   backface-visibility: hidden; 
   border-radius: 30px;
   justify-content: center;
+  text-align: justify;
 }
 
 .front {
    background-color:blueviolet;
   transform: rotateY(0deg); 
   transition: transform 0.5s ease;
-  text-align: center;
   
 }
 

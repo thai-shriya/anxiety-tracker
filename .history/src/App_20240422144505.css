@@ -1,0 +1,18 @@
+.main-container{
+  display: grid;
+  grid-template-rows: repeat(3, 200px);
+}
+.flex-card-container{
+  border: 2px solid red;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  
+}
+
+.flex-card-text{
+  color:red;
+  padding: 10px;
+  text-align: center;
+  margin: 60px;
+}

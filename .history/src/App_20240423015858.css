@@ -1,0 +1,50 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 15px;
+  background-color:aliceblue
+}
+
+.flex-card{
+  padding: 10px;
+  border: 1px red;
+  background-color:blueviolet;
+  margin: 40px 15px 40px 15px;
+  height: 200px;
+  border-radius: 30px;
+  color:white;
+  perspective: 1000px;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the backface of the element */
+}
+
+.front {
+  background-color: #f0f0f0; /* Front face background color */
+  transform: rotateY(0deg); /* Initial rotation for front face */
+  transition: transform 0.5s ease; /* Add transition for smooth flipping */
+}
+
+.back {
+  background-color: #e0e0e0; /* Back face background color */
+  transform: rotateY(180deg); /* Initial rotation for back face */
+  transition: transform 0.5s ease; /* Add transition for smooth flipping */
+}
+
+/* Add class to flip the card */
+.flex-card.flipped .front {
+  transform: rotateY(-180deg);
+}
+
+.flex-card.flipped .back {
+  transform: rotateY(0deg);
+}
+
+
+

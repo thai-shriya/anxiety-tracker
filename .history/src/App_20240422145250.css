@@ -1,0 +1,13 @@
+.grid-container{
+grid-template-columns: auto auto auto;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.flex-card-text{
+  color:red;
+  padding: 10px;
+  text-align: center;
+  margin: 60px;
+}

@@ -28,9 +28,7 @@ function App() {
     { frontContent: 'You feel you are worthless?', backContent: 'Study until you feel you are worth for yourself' },
     { frontContent: 'No one is interested in you?', backContent: 'World has not seen what you can do yet. Prepare, gain skills and network with people.' },
     { frontContent: 'No one cares for you?', backContent: 'Why do you need someone when you are able to live by yourself. Be greatful for what you have in life' },
-    { frontContent: 'You are not good looking?', backContent: 'Your body is not good yet. Go to gym, eat healthy. When your body is happy, you glow!' },
-    { frontContent: 'You feel alone?', backContent: 'It is common for someone to feel alone. Go out and chill for some time. You will be doing good. Trust me.' },
-  { frontContent: 'You fucked up your entire life?', backContent: 'It is okay, no one is so idle to judge you. But, you are doing great so far.' }];
+  { frontContent: 'You are not good looking?', backContent: 'Your body is not good yet. Go to gym, eat healthy. When your body is happy, you glow!' }];
  
   return (
     <div className='grid-container'>

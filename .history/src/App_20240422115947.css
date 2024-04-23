@@ -1,0 +1,12 @@
+.flex-card-container{
+  border-color: red;
+  width: 100px;
+  height: 200px;
+  margin: 30px;
+}
+
+.flex-card-text{
+  color:red;
+  padding: 10px;
+  text-align: center;
+}

@@ -23,6 +23,7 @@
   backface-visibility: hidden; 
   border-radius: 30px;
   justify-content: center;
+  padding: 10px;
 }
 
 .front {

@@ -1,0 +1,21 @@
+.main-container{
+  
+ grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.flex-card-container{
+  border: 2px solid red;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  
+}
+
+.flex-card-text{
+  color:red;
+  padding: 10px;
+  text-align: center;
+  margin: 60px;
+}
